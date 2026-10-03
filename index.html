@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. Shah | Candidate Portfolio</title>
+    <!-- Tailwind CSS for clean, medical-tech aesthetic -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .pillar-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-4xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-extrabold tracking-tight text-slate-900">J. Shah</h1>
+                <p class="text-sm font-semibold text-blue-600 mt-1 uppercase tracking-wide">Pre-Medical Candidate | Chemistry</p>
+            </div>
+            <!-- Zero-click navigation just scrolls down the single page -->
+            <div class="mt-4 md:mt-0 flex gap-6 text-sm font-medium">
+                <a href="#arts" class="text-slate-500 hover:text-blue-600 transition-colors">Arts & Discipline</a>
+                <a href="#clinical" class="text-slate-500 hover:text-blue-600 transition-colors">Clinical Readiness</a>
+                <a href="#ethics" class="text-slate-500 hover:text-blue-600 transition-colors">Ethical Leadership</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- Introduction Context -->
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Supplemental Portfolio</h2>
+            <p class="text-slate-600 leading-relaxed">
+                This single-page portfolio provides visual context to my Common Application. It highlights my dedication to cultural arts, hands-on clinical emergency medicine, and healthcare ethics.
+            </p>
+        </div>
+
+        <!-- Pillar 1: Cultural Mastery & Arts (NHSDA) -->
+        <section id="arts" class="scroll-mt-24">
+            <div class="mb-6 border-b border-slate-200 pb-2">
+                <h2 class="text-2xl font-bold text-slate-900">1. Cultural Mastery & Discipline</h2>
+                <p class="text-blue-600 mt-1 font-medium">National Honor Society for Dance Arts (NHSDA) Inductee — Bharatanatyam</p>
+            </div>
+            
+            <div class="pillar-card">
+                <!-- REAL VIDEO PLACEHOLDER: A highly viewed Bharatanatyam performance -->
+                <div class="video-container bg-slate-100 mb-6">
+                    <!-- Replace the video ID below (rB2u6ZJgq78) with J's actual video ID when ready -->
+                    <iframe src="https://www.youtube.com/embed/rB2u6ZJgq78?rel=0" title="Bharatanatyam Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <h3 class="text-lg font-bold text-slate-800 mb-2">The Discipline of Classical Dance</h3>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                    <strong>Context:</strong> Bharatanatyam requires years of rigorous physical conditioning, complex rhythmic memorization, and expressive storytelling. Earning induction into the NHSDA represents over [X] hours of dedicated practice and a commitment to preserving cultural heritage through the classical arts.
+                </p>
+                <p class="text-sm text-slate-600 leading-relaxed italic">
+                    *The video above demonstrates a traditional Varnam, showcasing the intricate footwork and stamina required for this art form.*
+                </p>
+            </div>
+        </section>
+
+        <!-- Pillar 2: Clinical Readiness (EMT) -->
+        <section id="clinical" class="scroll-mt-24">
+            <div class="mb-6 border-b border-slate-200 pb-2">
+                <h2 class="text-2xl font-bold text-slate-900">2. Clinical Readiness</h2>
+                <p class="text-blue-600 mt-1 font-medium">Certified Emergency Medical Technician (EMT-B) & BLS Provider</p>
+            </div>
+            
+            <div class="pillar-card flex flex-col md:flex-row gap-8 items-start">
+                <div class="w-full md:w-2/5 shrink-0">
+                    <!-- REAL IMAGE PLACEHOLDER: An ambulance/medical context image -->
+                    <img src="https://images.unsplash.com/photo-1587556930799-8dca6a3243bf?auto=format&fit=crop&w=800&q=80" alt="Ambulance Placeholder" class="w-full h-auto rounded-lg shadow-sm border border-slate-200 object-cover aspect-[4/3]">
+                    <p class="text-xs text-slate-400 mt-2 text-center italic">[Placeholder: Replace with photo of J in EMT uniform]</p>
+                </div>
+                <div class="w-full md:w-3/5 space-y-4 text-sm text-slate-600 leading-relaxed">
+                    <h3 class="text-lg font-bold text-slate-800">Frontline Emergency Care</h3>
+                    <p>Obtaining state licensure as an EMT required 150+ hours of intensive medical training, hands-on clinical assessments, and rigorous written examinations prior to my senior year.</p>
+                    <ul class="list-disc pl-5 space-y-2 mt-2">
+                        <li><strong>Patient Care:</strong> Administer Basic Life Support (BLS), CPR, and rapid trauma assessments in high-pressure emergency scenarios.</li>
+                        <li><strong>Systems Communication:</strong> Coordinate patient hand-offs with paramedics and emergency department triage staff, ensuring accurate medical reporting.</li>
+                        <li><strong>Clinical Exposure:</strong> Direct, hands-on experience navigating the complexities of emergency healthcare logistics and patient empathy on a weekly basis.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillar 3: Ethical Leadership (Ethics Competition) -->
+        <section id="ethics" class="scroll-mt-24">
+            <div class="mb-6 border-b border-slate-200 pb-2">
+                <h2 class="text-2xl font-bold text-slate-900">3. Ethical & Systems Leadership</h2>
+                <p class="text-blue-600 mt-1 font-medium">1st Place — Team Challenge Ethics Competition</p>
+            </div>
+            
+            <div class="pillar-card">
+                <h3 class="text-lg font-bold text-slate-800 mb-2">Analyzing Complex Systems</h3>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                    <strong>The Challenge:</strong> Modern medicine is inherently tied to complex ethical, economic, and systemic dilemmas. In this regional competition, our team was tasked with analyzing a multi-layered corporate ethics case study that required balancing stakeholder needs, moral obligations, and financial reality.
+                </p>
+                <div class="bg-slate-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                    <p class="text-sm text-slate-700 leading-relaxed italic">
+                        "Through collaborative research, critical analysis, and oral defense, our team secured 1st Place. This experience sharpened my ability to evaluate systemic structures—a skill I plan to translate directly into the healthcare sector to navigate clinical ethics and public health policy."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-10 text-center">
+        <p class="text-slate-400 text-sm font-medium tracking-wide">© 2026 J. Shah | Common App Supplemental Portfolio</p>
+    </footer>
+
+</body>
+</html>
